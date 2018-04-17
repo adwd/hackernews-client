@@ -3,13 +3,17 @@
   "version": "0.1.0",
   "description": "hackernews api client",
   "main": "dist/index.js",
+  "module": "es/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adwd/hackernews-client.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "npm run build:clean && npm run build:cjs && npm run build:es",
+    "build:clean": "rm -rf ./dist && rm -rf ./es",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:es": "tsc -p tsconfig.es.json"
   },
   "keywords": [],
   "author": "",
