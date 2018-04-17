@@ -1,6 +1,6 @@
 {
   "name": "@adwd/hackernews-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "hackernews api client",
   "main": "dist/index.js",
   "module": "es/index.js",
