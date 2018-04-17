@@ -1,0 +1,24 @@
+{
+  "name": "@adwd/hackernews-client",
+  "version": "0.1.0",
+  "description": "hackernews api client",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adwd/hackernews-client.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "rxjs": "^5.5.10",
+    "typescript": "^2.8.1"
+  },
+  "peerDependencies": {
+    "rxjs": "5.x"
+  }
+}
